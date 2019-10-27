@@ -32,26 +32,20 @@ class ImageButton extends StatefulWidget {
 
 class _ImageButtonState extends State<ImageButton> {
   double paddingTop;
-
   ImageProvider imagePressed;
   ImageProvider imageUnPressed;
   Image currentImage;
-
   Function _action;
-
   bool preloaded = false;
-
   List<Widget> _children;
   List<Widget> _label = [];
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     imagePressed = widget.pressedImage.image;
     imageUnPressed = widget.pressedImage.image;
-
     currentImage = widget.unpressedImage;
     paddingTop = 0.0;
 
@@ -109,8 +103,11 @@ class _ImageButtonState extends State<ImageButton> {
                   height: widget.height,
                   width: widget.width,
                   padding: EdgeInsets.only(top: paddingTop),
-                  decoration:
-                      BoxDecoration(image: DecorationImage(fit: BoxFit.fill, alignment: Alignment(0, 0), image: currentImage.image)),
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                          fit: BoxFit.fill,
+                          alignment: Alignment(0, 0),
+                          image: currentImage.image)),
                   child: Row(
                     mainAxisAlignment: widget.mainAxisAlignment,
                     crossAxisAlignment: widget.crossAxisAlignment,

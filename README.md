@@ -3,7 +3,7 @@
 Button composed of two images.
 
 ## About
-ImageButton is simple plugin that allows you to yous your images as simple buttons with two different faces (pressed / unpressed).
+ImageButton is simple plugin that allows you to use your images as simple buttons with two different faces (pressed / unpressed).
 
 ## How To Use ImageButton
 ```dart
