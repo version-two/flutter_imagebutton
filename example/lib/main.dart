@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> {
                   Padding(
                     padding: const EdgeInsets.only(top: 5.0),
                     child: Text(
-                      'AHOJ A',
+                      'SAMPLE',
                       style: TextStyle(color: Colors.white),
                     ),
                   )

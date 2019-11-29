@@ -1,5 +1,5 @@
 name: imagebutton
-version: 0.0.3
+version: 0.0.4
 authors:
   - Mario Chamuty <chamuty@versiontwo.sk>
   - Christian Danizek <danizek@versiontwo.sk>
@@ -17,7 +17,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 flutter:
   plugin:
     androidPackage: sk.v2.packages.imagebutton
-    pluginClass: ImagebuttonPlugin
+    pluginClass: ImagebuttonPluginc
