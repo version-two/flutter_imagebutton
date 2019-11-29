@@ -1,3 +1,6 @@
+## 0.0.5
+Fixed a little typo in pubspec.
+
 ## 0.0.4
 Minor changes. Next version will contain major changes to parameters that will make more sense.
 
