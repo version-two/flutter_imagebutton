@@ -1,5 +1,5 @@
 name: imagebutton
-version: 0.0.5
+version: 0.0.6
 description: >
   ImageButton is simple plugin that allows you to use your images as simple buttons with two different faces (pressed / unpressed).
 homepage: https://github.com/version-two/flutter_imagebutton
@@ -16,6 +16,3 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-  plugin:
-    androidPackage: sk.v2.packages.imagebutton
-    pluginClass: ImagebuttonPlugin
